@@ -1,0 +1,1459 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap"); */
+
+/* html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+} */
+
+/* body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Nunito", sans-serif; 
+} */
+
+/* ul,
+li,
+p,
+span {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+} */
+
+body.modal-open {
+  overflow: visible;
+}
+
+.flex-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  width: 7rem;
+}
+
+.logo-default {
+  width: 7rem !important;
+}
+
+.nav-item,
+.nav-item.active {
+  line-height: 1;
+  padding: 0.1rem;
+}
+
+.nav-link {
+  color: #000000;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* .nav-link.active {
+  background-color: #f5b518;
+} */
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light {
+  background: #ffffff;
+}
+
+/* navigation end */
+
+.home-banner {
+  background: url("https://sparklebox.school/img/main-bg-sakshi.webp");
+  /*background: url("img/Freedam26-desktop1.jpg");*/
+
+  width: auto;
+
+  height: 48.44vw;
+  /*height: 36.44vw;*/
+  /*background-size: contain;*/
+
+  background-size: cover;
+}
+
+.extra-white {
+  width: 100%;
+  background: #ffffff;
+  margin: 100px;
+}
+
+/* boy bg */
+
+.learn-journey {
+  background: url("https://sparklebox.school/img/blue-main-bg.png");
+  width: auto;
+  height: 46.87vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.learn-content {
+  /* background: #ffffff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 46.87vw;
+  text-align: center;
+}
+
+#learn-slide-1 {
+  text-transform: uppercase;
+  background: #ffffff;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-left: 1rem solid #f6b711;
+  padding: 4rem 1.5rem;
+  width: 100%;
+}
+
+#learn-slide-2 {
+  text-transform: uppercase;
+  background: #ffffff;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-left: 1rem solid #f6b711;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.blue01 {
+  font-weight: 900;
+  color: #01a8df;
+  margin-bottom: 0;
+  font-size: 2.6rem;
+}
+
+.black01 {
+  font-size: 2.1rem;
+  color: #000;
+}
+
+.blue02 {
+  font-weight: 900;
+  color: #01a8df;
+  margin-bottom: 0;
+  font-size: 1.59rem;
+}
+
+.blue03 {
+  font-weight: 900;
+  color: #01a8df;
+  margin-bottom: 0;
+  font-size: 4.95rem;
+}
+
+.blue04 {
+  font-weight: 900;
+  color: #01a8df;
+  margin-bottom: 0;
+  font-size: 6.5rem;
+  line-height: 0;
+}
+
+.boy-heading-1 {
+  font-weight: 900;
+  color: #01a8df;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.boy-para {
+  color: #000;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* orange bg */
+
+.what-is {
+  background: url("https://sparklebox.school/img/yellow-main-bg.jpg");
+  width: auto;
+  height: 37.81vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.whatis-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37.81vw;
+  text-align: center;
+}
+
+#what-slide {
+  background-color: white;
+  border-radius: 2rem;
+  border-left: 16px solid #01a8df;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .imgclass {
+    width: 350px;
+    height: auto;
+    float: left;
+    margin-left: -140px;
+    /*margin-top:-70px;*/
+  }
+
+  #what-slide {
+    width: 280px;
+    height: auto;
+    float: right;
+    margin-left: -120px;
+    margin-top: -40px;
+    margin-right: -140px;
+  }
+  .banner-yellow-bg {
+    float: left;
+    width: 46%;
+    height: 46%;
+  }
+}
+
+.toy-heading {
+  font-weight: 900;
+  /* margin-top: 3rem; */
+  font-size: 1.4rem;
+  padding: 1rem 0 0;
+}
+
+.toy-para {
+  color: #faaf3b;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+.testimonial-container {
+  text-align: center;
+  padding: 4rem 0;
+  overflow: hidden;
+}
+
+.testimonial-heading {
+  font-weight: 900;
+  color: #f6b711;
+  margin-bottom: 1rem;
+}
+
+.plyr.plyr--stopped .plyr__controls {
+  display: none;
+}
+
+/* .plyr--video {
+    border-radius: 2rem;
+  } */
+
+.about-video {
+  padding: 5rem 3rem 1rem;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.step-id {
+  color: #40a1da;
+  font-weight: 900;
+}
+
+.btn-lg {
+  border-radius: 1.5rem;
+}
+
+.btn-dark {
+  font-weight: 700;
+}
+
+.fadeout {
+  position: relative;
+  bottom: 3em;
+  height: 3em;
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-image: -moz-linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-image: -o-linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-image: -ms-linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/* footer */
+
+footer {
+  background: url("https://sparklebox.school/img/main-footer-bg.png");
+  width: auto;
+  height: 37.81vw;
+  background-size: cover;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  padding: 0 5rem;
+  margin-top: 11rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    margin-top: 5rem;
+  }
+}
+
+.footer-col-1,
+.footer-col-2 {
+  border-right: 3px solid white;
+}
+
+.footer-col-3 {
+  display: grid;
+  place-content: center;
+}
+
+.contact-number {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-address {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-hr {
+  margin: 1rem;
+  color: white;
+  border: 0;
+  opacity: 1;
+  margin: 2rem 0;
+  height: 3px !important;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+/* fotter ends */
+
+/* parent testimonials */
+
+Testimonial carousel .owl-carousel .owl-stage-outer {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: initial !important;
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+
+.owl-item.active.center {
+  /*-webkit-transform: scale(1.2);
+    transform: scale(1.2);*/
+  z-index: 10;
+  overflow: visible;
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow: inherit !important;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 50px !important;
+}
+
+.modal-dialog {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%) !important;
+}
+
+/* .modal {
+    display: flex;
+  } */
+.modal-body {
+  padding: 0;
+}
+
+.modal-content {
+  /* border-radius: 2rem; */
+  width: 125% !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.modal-form .form-control {
+  height: 2.75rem;
+  box-shadow: none !important;
+  border-radius: 8px;
+  font-size: 1rem !important;
+  border: 2px solid #f4b732 !important;
+  border-left: 10px solid #f4b732 !important;
+  margin-bottom: 16px;
+}
+
+.modal-submit-btn {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #a3c628;
+  border: 1px solid #a3c628 !important;
+  margin-bottom: 10px;
+}
+
+.grid-style {
+  place-content: center;
+  display: grid;
+  place-items: center;
+}
+
+.read-more-btn {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.icon-btn-heading {
+  background-color: #a3c628;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-radius: 50px;
+  padding: 1rem 1rem;
+  border: none;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#more {
+  display: none;
+}
+
+/* Form */
+
+.form-row {
+  height: 40.44vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-heading {
+  color: #40a1da;
+  font-weight: 700;
+}
+
+.form-col {
+  background: #fff;
+  width: 24%;
+  margin: 0 auto;
+  border: 2px solid #f5b518;
+  border-radius: 1rem;
+
+  /*display:none;*/
+}
+
+@media screen and (min-width: 576px) {
+  .form-col {
+    /* width: 34%;*/
+    width: 30%;
+    /*margin-right:0px;*/
+    margin-right: -46px;
+    margin-bottom: 56px;
+  }
+}
+
+.modal-form {
+  padding: 2% 3% 5%;
+}
+
+/* youtube icon */
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+  display: block;
+  background-color: red;
+  border-radius: 0.75rem;
+  padding: 2.5% 4.5%;
+}
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid:hover {
+  background-color: #ff0000db;
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+/* .non-form-col {
+    width: 100% !important;
+  } */
+
+.connect-with-us {
+  font-size: 24px;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+/* Media Queries */
+
+/* Under 576 */
+@media screen and (max-width: 575px) {
+  .home-banner {
+    /*background: url("img/Freedam26-mobile.jpg");*/
+    background: url("https://sparklebox.school/img/Main-Banner-mobile.webp");
+    /*height:208vw;*/
+    height: 310vw;
+
+    width: auto;
+    /*margin-bottom:-96px;*/
+    margin-bottom: -5rem;
+    background-repeat: repeat-x;
+    /*background-size: 100% auto;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*margin-bottom: 575px;*/
+  }
+  .connect-with-us {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 35px;
+  }
+  .non-form-col {
+    height: 166vw;
+  }
+  .form-row {
+    height: 750px;
+    /*background-image: url("img/form-mob-bg.png");*/
+    /*background-position: bottom 10px right 20px;*/
+  }
+  .form-back-pattern {
+    background-image: url("https://sparklebox.school/img/form-mob-bg.png");
+    background-position-y: bottom;
+  }
+  .form-col {
+    width: 90%;
+    /*margin-top:-526px;*/
+    margin-top: -46px;
+    /*display:none;*/
+  }
+  iframe {
+    margin-bottom: 10px;
+    width: 98%;
+  }
+
+  .learn-journey {
+    background: url("https://sparklebox.school/img/mob-blue-bg.webp");
+    width: auto;
+    height: 170.66vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 125px; */
+  }
+
+  .learn-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vw;
+    text-align: center;
+    padding: 2px;
+  }
+
+  #learn-slide-1 {
+    text-transform: uppercase;
+    background: #ffffff;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-left: 0rem solid #f6b711;
+    width: 100%;
+    /*padding: 2rem;*/
+    opacity: 0.7;
+    padding-top: 16px;
+    margin-top: 6px;
+  }
+
+  #learn-slide-2 {
+    text-transform: uppercase;
+    background: #ffffff;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-left: 0rem solid #f6b711;
+    width: 100%;
+    /*padding: 2rem;*/
+    opacity: 0.7;
+    padding-top: 0px;
+    margin-top: 3px;
+  }
+
+  .learn-empty {
+    height: 75vw;
+  }
+
+  .boy-heading-1 {
+    font-size: 4vw;
+    background: white;
+    margin-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  .boy-para {
+    font-size: 3vw;
+  }
+
+  .blue01 {
+    font-weight: 900;
+    color: #01a8df;
+    margin-bottom: 0;
+    font-size: 7.1vw;
+  }
+
+  .black01 {
+    font-size: 5.7vw;
+    color: #000;
+  }
+
+  .blue02 {
+    font-weight: 900;
+    color: #01a8df;
+    margin-bottom: 0;
+    font-size: 4.29vw;
+  }
+
+  .blue03 {
+    font-weight: 900;
+    color: #01a8df;
+    margin-bottom: 0;
+    font-size: 13.5vw;
+  }
+
+  .blue04 {
+    font-size: 16vw;
+    letter-spacing: 0.2rem;
+    line-height: 0;
+  }
+
+  .modal-submit-btn {
+    font-size: 1.2rem;
+  }
+  .what-is {
+    background: url("https://sparklebox.school/img/mob-yellow-bg.jpg");
+    width: auto;
+    height: 180vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 576px; */
+    background-color: #f4af3b;
+    /* margin: 0 0 576px 0; */
+  }
+
+  .whatis-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72vw;
+    text-align: center;
+    color: #000000;
+    /* background-color: #f4af3b; */
+    margin: 0;
+  }
+  .what-is-empty {
+    height: 100vw;
+  }
+
+  .toy-heading {
+    font-size: 5vw;
+  }
+
+  .toy-para {
+    color: white;
+    font-size: 3.8vw;
+    font-weight: 900;
+    padding: 0.5rem;
+    margin-top: -15px;
+  }
+
+  .about-video {
+    padding: 1rem;
+  }
+
+  footer {
+    background: url("https://sparklebox.school/img/mob-footer-bg.webp");
+    width: auto;
+    height: 122vh;
+    background-size: cover;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .footer-container {
+    padding: 7rem 3.5rem 0;
+    margin-bottom: 5rem;
+    padding-top: 20rem;
+  }
+
+  .footer-col-1,
+  .footer-col-2 {
+    border-right: none;
+  }
+
+  .copyright {
+    padding: 0 2rem;
+  }
+
+  .read-more-btn {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .step-img {
+    width: 30%;
+  }
+
+  .step-id {
+    color: #40a1da;
+    font-weight: 900;
+    font-size: 0.75rem;
+  }
+
+  ul,
+  li,
+  p,
+  span {
+    /* font-family: "Nunito", sans-serif; */
+    font-size: 12px;
+  }
+
+  .icon-btn-heading {
+    background-color: #a3c628;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 31px;
+    padding: 0.75rem 0.5em;
+    border: none;
+    width: 72%;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .home-banner {
+    /* background: url("img/tab-sakshi.jpg");*/
+    /*background: url("img/SBS-tab.webp");*/
+    /* background: url("img/Freedam26-desktop.jpg");*/
+    width: auto;
+    height: 152vw;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: repeat-x;
+    margin-bottom: 0rem;
+  }
+  .non-form-col {
+    height: 152vw;
+    margin-top: -38rem;
+  }
+  .form-row {
+    height: 750px;
+  }
+  .imgclass {
+    margin-left: 0px !important;
+    width: auto;
+  }
+  .home-banner1 {
+    height: 93vh;
+  }
+  .banner-yellow-bg {
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .form-col {
+    width: 78%;
+    margin-right: 4rem;
+    background: url("https://sparklebox.school/img/form-mob-bg.png");
+  }
+
+  .learn-journey {
+    background: url("https://sparklebox.school/img/tab-blue-bg.jpg");
+    width: auto;
+    height: 150.5vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 125px; */
+  }
+
+  .learn-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+    text-align: center;
+  }
+
+  .learn-empty {
+    height: 56vw;
+  }
+
+  .blue01 {
+    font-weight: 900;
+    color: #01a8df;
+    margin-bottom: 0;
+    font-size: 2.6rem;
+  }
+
+  .black01 {
+    font-size: 2.12rem;
+    color: #000;
+  }
+
+  .blue02 {
+    font-weight: 900;
+    color: #01a8df;
+    margin-bottom: 0;
+  }
+
+  .blue03 {
+    font-weight: 900;
+    color: #01a8df;
+    margin-bottom: 0;
+    font-size: 4.9rem;
+  }
+
+  .blue04 {
+    font-size: 6.2rem;
+    letter-spacing: 0.2rem;
+    line-height: 0;
+  }
+
+  #learn-slide-2 {
+    padding: 1rem;
+  }
+
+  .boy-heading-1 {
+    font-size: 4vw;
+    background: white;
+    margin-bottom: 0;
+  }
+
+  .boy-para {
+    font-size: 3vw;
+  }
+
+  .what-is {
+    background: url("https://sparklebox.school/img/tab-yellow-bg.jpg");
+    width: auto;
+    height: 150vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f4af3b;
+  }
+
+  .whatis-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+    text-align: center;
+    color: #000000;
+    /* background-color: #f4af3b; */
+  }
+  .what-is-empty {
+    height: 84vw;
+  }
+
+  .toy-para {
+    color: #f4af3b;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .about-video {
+    padding: 1rem;
+  }
+
+  footer {
+    background: url("https://sparklebox.school/img/tab-footer-bg.png");
+    width: auto;
+    height: auto;
+    background-size: cover;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-container {
+    padding: 0 5rem;
+    margin-top: 18rem;
+  }
+
+  .footer-col-1,
+  .footer-col-2 {
+    border-right: none;
+  }
+
+  .copyright {
+    padding: 0 2rem;
+  }
+
+  /* need to add */
+  .step-img {
+    width: 35%;
+  }
+  .icon-btn-heading {
+    background-color: #a3c628;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-radius: 41px;
+    padding: 1rem 1rem;
+    border: none;
+    width: 51%;
+    margin: 0 auto;
+  }
+
+  .step-id {
+    color: #40a1da;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  ul,
+  li,
+  p,
+  span {
+    font-family: "Nunito", sans-serif;
+    font-size: 11px;
+  }
+
+  /* need to add */
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .learn-content {
+    height: 46.87vw;
+  }
+  #learn-slide-1 {
+    padding: 1rem;
+  }
+  .blue01 {
+    font-size: 3vw;
+  }
+
+  .black01 {
+    font-size: 2.42vw;
+  }
+
+  .blue02 {
+    font-size: 1.85vw;
+  }
+
+  .blue03 {
+    font-size: 5.68vw;
+  }
+
+  .blue04 {
+    font-size: 7vw;
+    line-height: 0;
+    letter-spacing: 0.2rem;
+  }
+
+  #learn-slide-2 {
+    padding: 1rem;
+  }
+
+  .boy-heading-1 {
+    font-size: 2vw;
+    background: white;
+    margin-bottom: 0;
+  }
+
+  .boy-para {
+    font-size: 1.25vw;
+  }
+
+  .boy-btm-heading {
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  .what-is {
+    background: url("https://sparklebox.school/img/Banner-yellow-bg.webp");
+    width: 220px;
+    height: 37.81vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .whatis-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 37.81vw;
+    text-align: center;
+  }
+
+  .toy-heading {
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  .toy-para {
+    color: #faaf3b;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0 !important;
+  }
+
+  .footer-col-1,
+  .footer-col-2 {
+    border-right: 3px solid white;
+    padding-top: 10rem;
+  }
+
+  .footer-col-3 {
+    display: grid;
+    place-content: center;
+    padding-top: 10rem;
+  }
+
+  .contact-address {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+  .icon-btn-heading {
+    background-color: #a3c628;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 40px;
+    padding: 1.5rem 1.5rem;
+    border: none;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}
+
+/* from 756 to 991px */
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .home-banner {
+    height: 34rem;
+    /*background-repeat:repeat-x;
+        margin-bottom:-14rem;*/
+  }
+  .learn-content {
+    height: 46.87vw;
+  }
+  #learn-slide-1 {
+    padding: 1rem;
+  }
+
+  .blue01 {
+    font-size: 2.6vw;
+  }
+
+  .black01 {
+    font-size: 2.15vw;
+  }
+
+  .blue02 {
+    font-size: 1.6vw;
+  }
+
+  .blue03 {
+    font-size: 4.9vw;
+  }
+
+  .blue04 {
+    font-size: 5.9vw;
+    line-height: 0;
+    letter-spacing: 0.2rem;
+  }
+
+  #learn-slide-2 {
+    padding: 0.5rem;
+  }
+
+  .boy-heading-1 {
+    font-size: 2vw;
+    background: white;
+    margin-bottom: 0;
+  }
+
+  .boy-para {
+    font-size: 1.4vw;
+  }
+  /* orange bg */
+
+  .what-is {
+    background: url("https://sparklebox.school/img/yellow-main-bg.jpg");
+    width: auto;
+    height: 37.81vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .whatis-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 37.81vw;
+    text-align: center;
+  }
+
+  .toy-heading {
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+
+  .toy-para {
+    color: #faaf3b;
+    font-size: 0.65rem !important;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  /* form */
+
+  .form-col {
+    background: #fff;
+    width: 38%;
+    margin-left: 32rem;
+    /* margin: 0 auto; */
+    margin-right: -2rem;
+    border: 2px solid #f5b518;
+    border-radius: 1rem;
+    height: 38vh;
+  }
+
+  .modal-form .form-control {
+    height: 2.25rem;
+    box-shadow: none !important;
+    border-radius: 8px;
+    font-size: 1rem !important;
+    border: 2px solid #f4b732 !important;
+    border-left: 10px solid #f4b732 !important;
+    margin-bottom: 14px;
+  }
+  .modal-submit-btn {
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: #a3c628;
+    border: 1px solid #a3c628 !important;
+    margin-bottom: 10px;
+  }
+
+  .form-heading {
+    color: #40a1da;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 15px;
+  }
+  .form-group {
+    margin-bottom: 2px;
+  }
+
+  /* form */
+
+  .contact-address {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  contact-number {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+  /* need to add */
+  .icon-btn-heading {
+    background-color: #a3c628;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border-radius: 40px;
+    padding: 1rem 1.5rem;
+    border: none;
+    width: 43%;
+    margin: 0 auto;
+  }
+
+  .step-img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+  .boy-heading-1 {
+    font-weight: 900;
+    color: #01a8df;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    font-size: 1.25vw;
+  }
+  .boy-para {
+    color: #000;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    font-size: 1.3vw;
+    line-height: 1.5;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.what-exactly-is-school {
+  width: 400px;
+  height: 400px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-yellow-bg {
+    width: 266px;
+    margin-top: -10rem;
+    margin-right: -2rem;
+    /*height:200px;*/
+    /*	float:left;*/
+  }
+  .what-exactly-is-school {
+    width: 200px;
+    height: 200px;
+    /*float:right;*/
+  }
+}
+
+.imgclass {
+  border: 2px solid white;
+  border-radius: 24px;
+  margin-left: -120px;
+}
+
+@media (max-width: 480px) {
+  .imgclass {
+    width: 330px;
+    height: auto;
+    margin-left: -100px;
+    margin-top: 0px;
+  }
+
+  #what-slide {
+    width: 314px;
+    height: auto;
+    float: right;
+    margin-left: -120px;
+    margin-top: 36px;
+    margin-right: 10px;
+    border-left: 0px;
+    background-color: #fbb03b;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .banner-yellow-bg {
+    /*padding-top:20px;
+      float:left;
+      width:46%;
+      height:46%;*/
+
+    padding-top: 20px;
+    /* float: right; */
+    width: 85%;
+    margin-left: 96px;
+    height: 26%;
+  }
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+.playBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #ff0000;
+  background: white;
+  border-radius: 10px;
+  width: 60px;
+  padding: 2px 2px;
+  font-size: 46px;
+  border-radius: 12px;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+@media (max-width: 480px) {
+  .playBtn {
+    width: 25px;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-size: 18px;
+  }
+}
+
+.parent-video {
+  width: 100%;
+  height: 220px;
+}
+
+@media (max-width: 480px) {
+  .parent-video {
+    padding: 10px;
+  }
+}
+
+.home-banner2 {
+  background-image: url("https://sparklebox.school/img/Play-and-learn-bg.jpg");
+}
+.banner-blue-bg {
+  /*width:100px;*/
+  background-image: url("https://sparklebox.school/img/Play-and-learn-bg.jpg");
+}
+.playimgclass {
+  width: 500px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 350px) {
+  .form-col {
+    margin-top: -588px;
+    /*margin-top:-520px;*/
+  }
+  #learn-slide-1 {
+    margin-top: 10px;
+  }
+  #learn-slide-2 {
+    margin-top: 24px;
+  }
+  #what-slide {
+    width: 267px;
+    margin-top: 15px;
+  }
+  .icon-container {
+    margin-top: 20px;
+  }
+  .copyright {
+    padding: 0px;
+    font-size: 10px;
+    height: 166px;
+  }
+  .home-banner {
+    margin-bottom: -55px;
+  }
+}
+.btn {
+  background-color: #ffb902 !important;
+}
