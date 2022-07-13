@@ -1,0 +1,56 @@
+#whybanner {
+  background: url("https://sparklebox.school/img/why-banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+  /* position: unset; */
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: center;
+}
+
+.para1-why {
+  font-size: 19px;
+  margin: 5% 7.5% -2.5%;
+}
+p.para1-why.para-why {
+  font-size: 19px;
+  margin: 1% 7.5% -2.5%;
+}
+.para2-why {
+  font-size: 1.25rem;
+  margin: 1% 10% -2.5%;
+}
+
+.para2-why a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media screen and (max-width: 992px) {
+  #whybanner {
+    background: url("https://sparklebox.school/img/why-mobile.jpg");
+    background-size: 100vw;
+    width: 100vw;
+    height: 108vw;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    margin-bottom: 6%;
+  }
+}
+@media screen and (max-width: 999) {
+  #whybanner {
+    height: 30vh;
+  }
+  .padding {
+    padding: 0rem 0 !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
+  #whybanner {
+    height: 509px !important;
+  }
+}
