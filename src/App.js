@@ -3,7 +3,7 @@ import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import IndexOne from "./Components/HomePage/indexone";
 import Whyus from "./Components/Pages/WhyUs/whyus";
-import AboutUs from "./Components/Pages/aboutus";
+import AboutUs from "./Components/Pages/AboutUs/aboutus";
 import Pnfy from "./Components/Pages/Curriculum/pnfy";
 import Nfy from "./Components/Pages/Curriculum/nfy";
 import K1fy from "./Components/Pages/Curriculum/k1fy";
