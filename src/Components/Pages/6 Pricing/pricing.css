@@ -1,0 +1,962 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+span.footer-copyright {
+  font: normal normal 800 16px/26px Nunito !important;
+  display: inline-block;
+  color: #388dca !important;
+}
+@media only screen and (max-width: 767px) {
+  .enquirenow {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 442px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -12px !important;
+    right: 0;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 443px) and (max-width: 575px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -16px !important;
+    right: 0;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -35px !important;
+    right: 0;
+    left: 0;
+  }
+}
+div#myModal2_float {
+  display: none !important;
+}
+footer#site-footer {
+  font-family: var(--bs-font-sans-serif) !important;
+}
+.inquirenow {
+  display: none;
+}
+.enquirenow {
+  display: none;
+}
+.svg-footer-top-holder {
+  position: absolute;
+  top: -54px !important;
+  right: 0;
+  left: 0;
+}
+input,
+select {
+  border: none !important;
+}
+.pricing {
+  background-color: #4499d4;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+/* .pricing-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pricing-img img {
+      width: 20%;
+      padding: 1%;
+    } */
+.modal-header {
+  background: #378bc8 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 1rem 1rem 0 0 !important;
+  text-align: center !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+span {
+  display: inline-block;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.5rem !important;
+}
+
+.modal-header h1 {
+  color: #fff;
+  font-weight: 700 !important;
+  font-size: 1.7rem !important;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.modal-header span {
+  color: #a3c626 !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.7rem !important;
+  line-height: 1.5;
+}
+
+.modal-img-col {
+  padding: 2%;
+}
+.modal-content {
+  /* margin-top: 100px; */
+  border-radius: 1rem;
+  border: none !important;
+}
+
+.floating-wpp {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  font-size: 14px;
+  transition: bottom 0.2s;
+  display: none;
+}
+.modal-dialog {
+  pointer-events: auto;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -43px !important;
+    right: 0;
+    left: 0;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .modal-dialog {
+    max-width: 66.67vw;
+    margin: 0 auto;
+  }
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -22px !important;
+    right: 0;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 1990px) {
+  .svg-footer-top-holder {
+    position: absolute;
+    top: -72px !important;
+    right: 0;
+    left: 0;
+  }
+}
+/* @media screen and (min-width: 336px) and (max-width: 768px) {
+    .modal-header h1{
+        color: #fff;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.5;
+         font-family: 'Nunito Sans', sans-serif !important;
+    }
+    .modal-header span{
+        color: #A3C626 !important;
+         font-family: 'Nunito Sans', sans-serif !important;
+          font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.5;
+} */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .modal-dialog {
+    max-width: 75vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .modal-dialog {
+    max-width: 58vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .modal-dialog {
+    max-width: 45vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .modal-dialog {
+    max-width: 35vw;
+    margin: 0 auto;
+  }
+}
+footer#site-footer {
+  padding: 57px 20px 11px 20px !important;
+}
+@media only screen and (max-width: 999px) {
+  .pricing-column {
+    width: 20rem !important;
+  }
+  .course-heading {
+    font-size: 2.5rem !important;
+  }
+  .owl-dots {
+    margin-left: 3%;
+    margin-top: -1rem !important;
+  }
+
+  .save img {
+    top: 20.5rem !important;
+    right: -0.75rem;
+  }
+  .course-heading {
+    margin-top: 3rem !important;
+  }
+  .logo-img {
+    padding-bottom: 2.5rem !important;
+  }
+  .footer_logo > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+  }
+  .owl-dots .owl-dot {
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50% !important;
+  }
+  .bg-blue footer#site-footer {
+    padding: 20px 20px 11px 20px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-header h1 {
+    margin: 0 20%;
+  }
+}
+@media screen and (min-width: 999px) {
+  .modal-content {
+    margin-top: 50px;
+    border-radius: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .modal-dialog {
+    max-width: 87vw;
+    margin: 0 auto;
+  }
+}
+
+.pricing-enclose {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10% 2%;
+}
+
+.pricing-column {
+  background-color: white;
+  height: auto;
+  /* padding: 1.6rem; */
+  /* border-top: .25rem solid #1EBBA3; */
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.7s ease;
+  position: relative;
+  overflow: hidden;
+  width: 17rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.pricing-column:hover {
+  transform: scale(1.1);
+}
+.pricing-column h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.ribbon img {
+  position: absolute;
+  transform: rotate(0deg);
+  left: -2.25rem;
+  top: -2.25rem;
+  width: 11.5rem !important;
+}
+
+.offer img {
+  position: absolute;
+  transform: rotate(0deg);
+  right: -0.75rem;
+  top: -1.75rem;
+  width: 8rem !important;
+}
+
+.duration-div {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.course-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #248cca;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 0 grey;
+  font-family: "Nunito Sans", sans-serif;
+}
+.logo-img {
+  width: 8rem !important;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+.price-div-1 {
+  background-color: #f4b82e;
+  color: #ffffff;
+  text-align: center;
+}
+.price-div-2 {
+  background-color: #248cca;
+  color: #ffffff;
+  text-align: center;
+}
+.price-div-3 {
+  background-color: #ff4a51;
+  color: #ffffff;
+  text-align: center;
+}
+.price-div-4 {
+  background-color: #a4c62a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.price-div h4 {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.inner-price {
+  padding-top: 2.5rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-info {
+  color: #ff4a51 !important;
+  background-color: white !important;
+  border-color: rgba(0, 0, 0, 0.075);
+  margin-bottom: 0.75rem;
+  padding: 6px 30px;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-weight: 900;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+
+.save img {
+  width: 8rem !important;
+  position: absolute;
+  top: 13.5rem;
+  right: -0.75rem;
+}
+
+.modal-body {
+  position: relative !important;
+  flex: 1 1 auto !important;
+  padding: 2rem 4rem !important;
+  background: white !important;
+  border-radius: 0 0 1rem 1rem !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+  background: #add8e6 !important;
+}
+.owl-nav button.owl-prev,
+.owl-carousel button.owl-dot,
+button.owl-next {
+  background-color: #ffffff !important;
+}
+.owl-dots .owl-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50% !important;
+}
+@media only screen and (min-width: 1930px) and (max-width: 2050px) {
+  .svg-footer-top-holder {
+    position: absolute;
+    top: -59px !important;
+    right: 0;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 2051px) {
+  .svg-footer-top-holder {
+    position: absolute;
+    top: -75px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+/* On HTML Page Css */
+.pay-txt {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+span.amount {
+  text-decoration-thickness: 0px !important;
+  text-decoration: line-through;
+  text-decoration-color: #000;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.discount-price {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.price-line {
+  margin: 0.5rem 4rem;
+}
+
+.pay-month {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.1rem !important;
+}
+
+.prgm-span {
+  color: #a3c626 !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.modal-img-col {
+  display: grid;
+  place-items: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+div#myBtn {
+  display: none;
+}
+
+footer#site-footer {
+  padding: 15px 18px 11px 20px !important;
+}
+
+#site-footer .svg-footer-top-holder {
+  display: none !important;
+}
+
+span.footer-copyright {
+  font: normal normal 800 16px/26px Nunito !important;
+  display: inline-block;
+  color: #388dca !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .enquirenow {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1439px) {
+  .svg-footer-top {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -12px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 443px) and (max-width: 575px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -16px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -35px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+div#myModal2_float {
+  display: none !important;
+}
+
+footer#site-footer {
+  font-family: var(--bs-font-sans-serif) !important;
+}
+
+.inquirenow {
+  display: none;
+}
+
+.enquirenow {
+  display: none;
+}
+
+.svg-footer-top-holder {
+  position: absolute;
+  top: -54px !important;
+  right: 0;
+  left: 0;
+}
+
+input,
+select {
+  border: none !important;
+}
+
+.pricing {
+  background-color: #4499d4;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+
+/* .pricing-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-img img {
+  width: 20%;
+  padding: 1%;
+} */
+.modal-header {
+  background: #378bc8 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 1rem 1rem 0 0 !important;
+  text-align: center !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+span {
+  display: inline-block;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.5rem important;
+}
+
+.modal-header h1 {
+  color: #fff;
+  font-weight: 700 !important;
+  font-size: 1.7rem !important;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+.modal-header span {
+  color: #a3c626 !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.7rem !important;
+  line-height: 1.5;
+}
+
+.modal-img-col {
+  padding: 2%;
+}
+
+.modal-content {
+  /* margin-top: 100px; */
+  border-radius: 1rem;
+  border: none !important;
+}
+
+.floating-wpp {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  font-size: 14px;
+  transition: bottom 0.2s;
+  display: none;
+}
+
+.modal-dialog {
+  pointer-events: auto;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -43px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .modal-dialog {
+    max-width: 66.67vw;
+    margin: 0 auto;
+  }
+
+  #site-footer .svg-footer-top-holder {
+    position: absolute;
+    top: -22px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 1990px) {
+  .svg-footer-top-holder {
+    position: absolute;
+    top: -72px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+/* @media screen and (min-width: 336px) and (max-width: 768px) {
+.modal-header h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+     font-family: 'Nunito Sans', sans-serif !important;
+}
+.modal-header span{
+    color: #A3C626 !important;
+     font-family: 'Nunito Sans', sans-serif !important;
+      font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+} */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .modal-dialog {
+    max-width: 75vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .modal-dialog {
+    max-width: 58vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .modal-dialog {
+    max-width: 45vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .modal-dialog {
+    max-width: 35vw;
+    margin: 0 auto;
+  }
+}
+
+footer#site-footer {
+  padding: 57px 20px 11px 20px !important;
+}
+
+@media only screen and (max-width: 999px) {
+  .pricing-column {
+    width: 20rem !important;
+  }
+
+  .course-heading {
+    font-size: 2.5rem !important;
+  }
+
+  .owl-dots {
+    margin-left: 3%;
+    margin-top: -1rem !important;
+  }
+
+  .save img {
+    top: 20.5rem !important;
+    right: -0.75rem;
+  }
+
+  .course-heading {
+    margin-top: 3rem !important;
+  }
+
+  .logo-img {
+    padding-bottom: 2.5rem !important;
+  }
+
+  .footer_logo > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+  }
+
+  .owl-dots .owl-dot {
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50% !important;
+  }
+
+  .bg-blue footer#site-footer {
+    padding: 20px 20px 11px 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-header h1 {
+    margin: 0 20%;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  .modal-content {
+    margin-top: 50px;
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .modal-dialog {
+    max-width: 87vw;
+    margin: 0 auto;
+  }
+}
+
+.pricing-enclose {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10% 2%;
+}
+
+.pricing-column {
+  background-color: white;
+  height: auto;
+  /* padding: 1.6rem; */
+  /* border-top: .25rem solid #1EBBA3; */
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.7s ease;
+  position: relative;
+  overflow: hidden;
+  width: 17rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.pricing-column:hover {
+  transform: scale(1.1);
+}
+
+.pricing-column h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.ribbon img {
+  position: absolute;
+  transform: rotate(0deg);
+  left: -2.25rem;
+  top: -2.25rem;
+  width: 11.5rem !important;
+}
+
+.offer img {
+  position: absolute;
+  transform: rotate(0deg);
+  right: -0.75rem;
+  top: -1.75rem;
+  width: 8rem !important;
+}
+
+.duration-div {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.course-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #248cca;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 0 grey;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.logo-img {
+  width: 8rem !important;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+
+.price-div-1 {
+  background-color: #f4b82e;
+  color: #ffffff;
+  text-align: center;
+}
+
+.price-div-2 {
+  background-color: #248cca;
+  color: #ffffff;
+  text-align: center;
+}
+
+.price-div-3 {
+  background-color: #ff4a51;
+  color: #ffffff;
+  text-align: center;
+}
+
+.price-div-4 {
+  background-color: #a4c62a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.price-div h4 {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.inner-price {
+  padding-top: 2.5rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-info {
+  color: #ff4a51 !important;
+  background-color: white !important;
+  border-color: rgba(0, 0, 0, 0.075);
+  margin-bottom: 0.75rem;
+  padding: 6px 30px;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-weight: 900;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+
+.save img {
+  width: 8rem !important;
+  position: absolute;
+  top: 13.5rem;
+  right: -0.75rem;
+}
+
+.modal-body {
+  position: relative !important;
+  flex: 1 1 auto !important;
+  padding: 2rem 4rem !important;
+  background: white !important;
+  border-radius: 0 0 1rem 1rem !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+  background: #add8e6 !important;
+}
+
+.owl-nav button.owl-prev,
+.owl-carousel button.owl-dot,
+button.owl-next {
+  background-color: #ffffff !important;
+}
+
+.owl-dots .owl-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50% !important;
+}
+
+@media only screen and (min-width: 1930px) and (max-width: 2050px) {
+  .svg-footer-top-holder {
+    position: absolute;
+    top: -59px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 2051px) {
+  .svg-footer-top-holder {
+    position: absolute;
+    top: -75px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+  display: block;
+  text-align: -webkit-center !important;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content_float {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: fit-content;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
