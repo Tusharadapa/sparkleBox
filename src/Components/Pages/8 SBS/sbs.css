@@ -1,0 +1,1263 @@
+.form-container {
+  padding-right: 20%;
+  padding-top: 6%;
+}
+
+/* #mobile-hero{
+            display: none;
+        }
+        #hero{
+            display:block;
+        }
+        .mobile-form{
+            display: none;
+        }    */
+ol {
+  list-style: decimal;
+}
+.head-list p {
+  font-weight: 800;
+  height: 23px;
+}
+.plans-table p {
+  font-size: 15px;
+  font-weight: 800;
+  height: 41px;
+}
+.plans hr:not([size]) {
+  height: 2px;
+  width: 82%;
+  margin-top: -4px;
+  margin-left: 10%;
+}
+.tdrow {
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-image: linear-gradient(to bottom, #fff, rgba(0, 0, 0, 0)) 1 100%;
+}
+.th-head {
+  color: #fff;
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #f8cf8f;
+}
+.d-table.w-100.address-item.whitecolor.bottom25 {
+  margin-top: 5%;
+}
+img.address-img {
+  width: 7%;
+  margin-left: 0;
+  margin-top: 3%;
+}
+p.address-txt {
+  word-spacing: -3px;
+  margin-top: -6%;
+  margin-left: 8%;
+  text-align: justify !important;
+}
+.phone {
+  width: 8%;
+}
+.outcometxt {
+  padding: 0px;
+  width: 121% !important;
+  border-radius: 10px;
+  font-size: 14px !important;
+  /* border: 1px solid #f4b732 !important; */
+  border-left: 15px solid #f4b732 !important;
+}
+.learn-txt {
+  font: normal normal 900 60px/60px Nunito;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+  color: #ed911d;
+  font-weight: 900 !important;
+}
+.learningoutcomes {
+  background-position: bottom;
+  padding: 64px;
+  height: 800px;
+  background-image: url("https://sparklebox.school/img/Benefits-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plan-table {
+  background-color: #ef9a27;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px #cdcdcd;
+  width: 76%;
+  padding: 23px;
+}
+.plans-table {
+  background-color: #ef9a27;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px #cdcdcd;
+  width: 100%;
+  padding: 21px 23px 57px 16px;
+}
+table,
+tr {
+  padding: 20px;
+}
+table {
+  border-collapse: collapse !important;
+  /* margin-left: -13px; */
+}
+.tdhead {
+  border-collapse: unset;
+  color: #000;
+  text-align: left;
+  font-weight: 500;
+  /* max-width: 250px;
+            padding: 1rem; */
+}
+.bordering {
+  margin-top: 58px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(269deg, #eeb872, #fff) 1;
+  height: 96%;
+}
+.td-head {
+  color: #000;
+  text-align: left;
+  font-weight: 500;
+  max-width: 250px;
+  padding: 1rem;
+  /* color: white; */
+}
+/* .first-tick{
+            margin-top: -35px;
+        } */
+.plan-table .td-head {
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  max-width: 250px;
+  padding: 1rem;
+  /* color: white; */
+  border-right: 1px solid #fff;
+}
+.plan-table .tdrow {
+  color: #000;
+  text-align: left;
+  font-weight: 500;
+  max-width: 250px;
+  padding: 1rem;
+  /* color: white; */
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+.plan-head {
+  font-size: 38px;
+  background-color: #a0c33a;
+  margin-left: 37%;
+  width: 27%;
+  border-radius: 20px;
+  font-weight: 900 !important;
+  padding: 7px;
+}
+.about-text p {
+  font-size: 20px;
+  margin: 12px;
+  color: #000;
+}
+.about-div {
+  margin-left: 41%;
+  width: 19%;
+  border-radius: 20px;
+  color: #2e7fc0;
+  font-weight: 900 !important;
+  padding: 7px;
+}
+.plans {
+  margin: 39px;
+  /* background-image:url("../img/Doddle-BG.png");*/
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  text-align: center;
+  padding: 21px;
+}
+.line-break {
+  margin-top: 3%;
+  background-color: #fff;
+  border: 0;
+  opacity: unset;
+}
+.col-lg-5.col-md-12.custom-footer {
+  border-right: 5px solid #fff;
+}
+.col-lg-3.col-md-12.custom-footer {
+  border-right: 5px solid #fff;
+}
+h3.color {
+  font: normal normal 800 24px/26px Nunito;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 580px) {
+  h3.color {
+    display: none;
+  }
+}
+.address {
+  font-size: 18px;
+  color: #fff !important;
+  font-weight: bold;
+}
+a.phone-number {
+  font-size: 18px;
+  color: #fff !important;
+  font-weight: bold;
+}
+span.footer-copyright {
+  font: normal normal 800 16px/26px Nunito;
+  display: inline-block;
+  color: #fff !important;
+}
+span.footer-copyright a {
+  color: #fff !important;
+}
+footer#site-footer {
+  padding: 266px 18px 2px 84px !important;
+}
+.tick {
+  width: 15%;
+  justify-self: center;
+}
+.svg-footer-top-holder {
+  display: none;
+}
+.about-us {
+  padding: 94px;
+  background-image: url("https://sparklebox.school/img/SBS-About-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero {
+  background-image: url("https://sparklebox.school/img/Main-Banner1.jpg");
+  height: 897px;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-size: cover;
+}
+footer#site-footer {
+  /* background-image: url("../img/Footer Banner-green.png") !important; */
+  /* background-image:url("../sparklebox.school+/footer/banners/main-footer-bg.png") !important; */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  /*height:660px;*/
+}
+.caldera-grid .form-control {
+  height: 41px !important;
+  border-radius: 10px;
+  font-size: 13px !important;
+  border: 1px solid #f4b732 !important;
+  border-left: 15px solid #f4b732 !important;
+}
+.caldera-grid .btn-primary {
+  width: 100%;
+  height: 48px;
+  border-radius: 15px;
+  background: #a1c339 !important;
+  border-color: #a1c339 !important;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.orh-form {
+  border-radius: 21px;
+  border: 2px solid #f4b732;
+}
+@media only screen and (min-width: 1600px) {
+  .orh-form.orh-home-text {
+    float: right;
+    margin-right: 13% !important;
+    margin-top: 13%;
+    width: 327px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .orh-form.orh-home-text {
+    float: right;
+    margin-right: 13% !important;
+    margin-top: 10%;
+    width: 327px;
+  }
+}
+.footer_panel .pl-lg-5,
+.px-lg-5 {
+  padding-left: 1rem !important;
+}
+@media only screen and (min-width: 1360px) and (max-width: 1399px) {
+  #hero {
+    height: 660px !important;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1400px) {
+  section#hero {
+    height: 700px !important;
+  }
+}
+@media only screen and (max-width: 1700px) and (min-width: 1400px) {
+  #hero {
+    height: 725px !important;
+  }
+}
+@media only screen and (max-width: 1850px) and (min-width: 1701px) {
+  #hero {
+    height: 868px !important;
+  }
+}
+.plan-table {
+  display: none;
+}
+.plans-table {
+  display: block;
+}
+@media only screen and (max-width: 999px) {
+  ol,
+  ul {
+    padding-left: 1rem;
+  }
+  ol {
+    list-style: none;
+  }
+  .tick-icon p {
+    font-weight: 800;
+    font-size: 11px;
+    height: 0px !important;
+    min-height: 1px !important;
+  }
+  p.text-left.mt-8 {
+    margin-top: 70px !important;
+  }
+  body {
+    /* background-image: url("https://sparklebox.school/img/Doddle-BG.png");*/
+  }
+  .plan-table .td-head {
+    padding: 10px;
+  }
+  .plan-table .tdrow {
+    padding: 4px;
+  }
+  td {
+    padding: 4px;
+  }
+  .bordering {
+    margin-top: 21px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(269deg, #eeb872, #fff) 1;
+    height: unset;
+    margin-bottom: -25px;
+  }
+  /* #mobile-hero{
+                display: block;
+            }
+            #hero{
+                display:none;
+            }
+            .mobile-form{
+                display: block;
+                background-image: url("../img/Doddle-BG.png");
+            } */
+  .col-lg-12.about-text {
+    background: #dff0f4;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .hr-de {
+    color: #ee9a27;
+    height: 2px;
+    width: 82%;
+  }
+  .hr-sbs {
+    color: #ee9a27;
+    height: 2px;
+    width: 49% !important;
+    margin-left: 27% !important;
+  }
+  .hr-sbsp {
+    color: #ee9a27;
+    height: 2px;
+    width: 49% !important;
+    margin-left: 27% !important;
+  }
+  .pl-lg-5,
+  .px-lg-5 {
+    padding-left: 1rem !important;
+  }
+  .outcometxt {
+    padding: 0px;
+    width: 100% !important;
+  }
+  .plans {
+    margin: 0px;
+    margin-top: 23px;
+  }
+  .plan-table {
+    display: block;
+    background-color: #ef9a27;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #cdcdcd;
+  }
+  .plans-table {
+    display: none !important;
+  }
+  #hero {
+    background-image: url("https://sparklebox.school/img/Main-Banner.jpg") !important;
+    /*	background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;*/
+    height: 897px !important;
+  }
+  .learningoutcomes {
+    background-image: url("https://sparklebox.school/img/Learning-outcome.jpg");
+    padding: 10px;
+    margin-top: 36px;
+  }
+  .about-us {
+    background-image: url("https://sparklebox.school/img/blue-mobilebg.png");
+    padding: 19px;
+    margin-top: 45%;
+  }
+  footer#site-footer {
+    /* background-image: url("../img/Footer-mobile\ \(1\).png") !important; */
+  }
+  .plan-table {
+    padding: 0px 0px 36px 0px;
+  }
+
+  .plan-head {
+    margin-bottom: 32px;
+    font-size: 38px;
+    background-color: #a0c33a;
+    margin-left: unset;
+    width: unset;
+    border-radius: 20px;
+    font-weight: 900 !important;
+    padding: 7px;
+  }
+  .bottom35 {
+    margin-bottom: 13px;
+  }
+  .learn-txt {
+    font: normal normal 900 30px/32px Nunito;
+  }
+  .outcometxt {
+    width: unset;
+  }
+  .about-div {
+    margin-bottom: 32px;
+    font-size: 38px;
+    background-color: #a0c33a;
+    margin-left: unset;
+    width: unset;
+    border-radius: 20px;
+    font-weight: 900 !important;
+    padding: 7px;
+  }
+  .tick {
+    width: 30%;
+  }
+  .th-head {
+    color: #ee9a27 !important;
+    font-size: 19px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    text-decoration-line: unset;
+    text-underline-offset: unset;
+    text-decoration-color: unset;
+  }
+  .tableheading {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: -4px;
+  }
+  .col-lg-3.col-md-12.custom-footer {
+    border-right: unset;
+  }
+  .about-text p {
+    color: #000;
+    font-size: 16px;
+  }
+  a.phone-number {
+    font-size: 13px;
+    margin-left: -3px;
+  }
+  img.address-img {
+    width: 12%;
+    margin-left: -19px;
+    margin-top: 11%;
+  }
+  .phone {
+    width: 16%;
+    margin-left: -20px;
+  }
+  p.address-txt {
+    word-spacing: -3px;
+    margin-top: -15%;
+  }
+}
+@media only screen and (min-width: 335px) and (max-width: 410px) {
+  .orh-form.orh-home-text {
+    margin-right: 5px !important;
+    margin-top: 599px !important;
+  }
+  ol,
+  ul {
+    padding-left: 12px;
+  }
+  .head-list {
+    width: 200% !important;
+  }
+  .bottom35 {
+    margin-bottom: 15px;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 57%;
+    width: 144px;
+    padding-top: 60px;
+  }
+  .about-us {
+    margin-top: 57%;
+  }
+  table {
+    margin-left: -1px;
+  }
+  .col-lg-4.slidesout {
+    margin-top: 20px;
+  }
+  /* .plan-table {
+        padding: 0px 0px 128px 0px;
+    }
+     */
+  .th-head {
+    font-size: 17px;
+  }
+
+  .learningoutcomes {
+    height: 866px;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 13px;
+  }
+  .plan-table {
+    width: 115%;
+  }
+}
+@media only screen and (max-width: 334px) {
+  table,
+  tr {
+    padding: 2px;
+  }
+  .head-list {
+    width: 185% !important;
+  }
+  table {
+    margin-left: -4px;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 75%;
+    width: 75%;
+  }
+
+  .about-us {
+    margin-top: 57%;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 13px;
+  }
+  .plan-table {
+    width: 115%;
+  }
+  .th-head {
+    color: #ee9a27 !important;
+    font-size: 14px;
+  }
+  .tick {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 320px) {
+  p.address.address.pl-2 {
+    margin-top: -12%;
+    margin-left: -17% !important;
+    font-size: 11px !important;
+  }
+  .head-list {
+    width: 185% !important;
+  }
+  .tick {
+    width: 57%;
+  }
+  .sbsplus img.tick.first-tick {
+    width: 50%;
+  }
+  .sbsplus img.tick {
+    width: 50%;
+  }
+  .th-head {
+    color: #ee9a27 !important;
+    font-size: 15px;
+  }
+  .learningoutcomes {
+    height: 925px;
+  }
+  .orh-form.orh-home-text {
+    margin-right: -8px !important;
+    margin-top: 515px !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft p {
+    margin-left: 10px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight p {
+    margin-left: 10px;
+  }
+  .head-list p {
+    font-weight: 800;
+    height: 10%;
+  }
+}
+@media only screen and (min-width: 348px) and (max-width: 410px) {
+  .tick {
+    width: 30%;
+  }
+  .orh-form {
+    width: 328px !important;
+  }
+  .head-list p {
+    font-weight: 800;
+    height: 23px;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 13px;
+  }
+  .plan-table {
+    width: 115%;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft p {
+    margin-left: 10px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight p {
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 411px) and (max-width: 475px) {
+  .orh-form {
+    width: 362px !important;
+  }
+  .head-list {
+    width: 185% !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft p {
+    margin-left: 10px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight p {
+    margin-left: 10px;
+  }
+  .bottom35 {
+    margin-bottom: 17px;
+  }
+  #hero {
+    background-image: url(https://sparklebox.school/img/Main-Banner.jpg) !important;
+    height: 1078px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: 10px !important;
+    margin-top: 668px !important;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 64%;
+  }
+  .about-us {
+    margin-top: 29%;
+  }
+  table {
+    margin-left: -9px;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 13px;
+  }
+  .plan-table {
+    width: 115%;
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 520px) {
+  .orh-form {
+    width: 362px !important;
+  }
+  .tick {
+    width: 45%;
+  }
+  .bottom35 {
+    margin-bottom: 17px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft p {
+    margin-left: 10px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+    padding: unset !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight p {
+    margin-left: 10px;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1078px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: 47px !important;
+    margin-top: 765px !important;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+    margin-left: 24px;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 78%;
+  }
+  .about-us {
+    margin-top: 42%;
+  }
+  table {
+    margin-left: -9px;
+  }
+  .learningoutcomes {
+    height: 917px;
+  }
+}
+@media only screen and (min-width: 521px) and (max-width: 550px) {
+  .orh-form {
+    width: 362px !important;
+  }
+  .bottom35 {
+    margin-bottom: 17px;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1078px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: 67px !important;
+    margin-top: 827px !important;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+    margin-left: 24px;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 78%;
+  }
+  .about-us {
+    margin-top: 53%;
+  }
+  table {
+    margin-left: -9px;
+  }
+  .learningoutcomes {
+    height: 917px;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 610px) {
+  .orh-form {
+    width: 362px !important;
+  }
+  .bottom35 {
+    margin-bottom: 17px;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1078px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: 70px !important;
+    margin-top: 912px !important;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+    margin-left: 24px;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 91%;
+  }
+  .about-us {
+    margin-top: 60%;
+  }
+  table {
+    margin-left: -9px;
+  }
+  .learningoutcomes {
+    height: 1013px;
+  }
+}
+@media only screen and (min-width: 611px) and (max-width: 669px) {
+  .orh-form {
+    width: 362px !important;
+  }
+  .bottom35 {
+    margin-bottom: 17px;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1078px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: 47px !important;
+    margin-top: 1006px !important;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+    margin-left: 24px;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 102%;
+  }
+  .about-us {
+    margin-top: 70%;
+  }
+  table {
+    margin-left: -9px;
+  }
+  .learningoutcomes {
+    height: 1013px;
+  }
+}
+@media only screen and (min-width: 670px) and (max-width: 699px) {
+  .orh-form {
+    width: 362px !important;
+  }
+  .bottom35 {
+    margin-bottom: 17px;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1078px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: 47px !important;
+    margin-top: 1048px !important;
+  }
+  form.caldera-grid {
+    width: 276px !important;
+    margin-left: 24px;
+  }
+  footer#site-footer {
+    padding: 3px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 102%;
+  }
+  .about-us {
+    margin-top: 70%;
+  }
+  table {
+    margin-left: -9px;
+  }
+  .learningoutcomes {
+    height: 1013px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 767px) {
+  .head-list {
+    width: 123% !important;
+  }
+  .orh-form {
+    width: 676px !important;
+  }
+  .bottom35 {
+    margin-bottom: -9px;
+  }
+  ul.social-icons.white.wow.fadeInUp.pl-0 li {
+    display: inline-block;
+    margin: 9px !important;
+  }
+  .plan-table {
+    padding: 0px 0px 35px 0px !important;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1175px !important;
+  }
+
+  .orh-form.orh-home-text {
+    margin-right: -84px !important;
+    margin-top: 225% !important;
+  }
+  form.caldera-grid {
+    width: 574px !important;
+    margin-left: 37px;
+  }
+  footer#site-footer {
+    padding: 115px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 72%;
+  }
+  .about-us {
+    margin-top: 73%;
+    padding: 95px;
+  }
+  table {
+    margin-left: 6px;
+  }
+  .tick {
+    width: 17%;
+  }
+  .phone {
+    width: 24%;
+    margin-left: -84px;
+  }
+  img.address-img {
+    width: 25%;
+    margin-left: -86px !important;
+    margin-top: 6%;
+  }
+  ul.social-icons-simple li,
+  ul.social-icons li {
+    display: inline-block;
+    margin: 8px;
+  }
+  .plan-head {
+    margin-left: 188px;
+    width: 41%;
+  }
+  a.phone-number {
+    font-size: 16px;
+    margin-left: -3px;
+  }
+  p.address.address.pl-2 {
+    margin-top: -17%;
+    margin-left: -48% !important;
+  }
+  .learningoutcomes {
+    height: 1013px;
+    padding: 40px;
+  }
+  .bottom35 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .head-list {
+    width: 123% !important;
+  }
+  .orh-form {
+    width: 676px !important;
+  }
+  .plan-table {
+    padding: 0px 0px 35px 0px !important;
+  }
+  .footer-col {
+    display: block !important;
+  }
+  .connect-with-us {
+    float: right;
+    margin-top: -20%;
+  }
+  .bottom35 {
+    margin-bottom: -9px;
+  }
+  #hero {
+    /* background-image: url(../img/Main-Banner.jpg) !important; */
+    height: 1175px !important;
+  }
+  .orh-form.orh-home-text {
+    margin-right: -9px !important;
+    margin-top: 166% !important;
+  }
+  form.caldera-grid {
+    width: 574px !important;
+    margin-left: 37px;
+  }
+  footer#site-footer {
+    padding: 115px 3px 1px 32px !important;
+  }
+  .footer_logo > img {
+    margin-top: 74%;
+  }
+  .about-us {
+    margin-top: 62%;
+    padding: 95px;
+  }
+  table {
+    margin-left: -9px;
+  }
+  .tick {
+    width: 17%;
+  }
+  .phone {
+    width: 24%;
+    margin-left: -84px;
+  }
+  img.address-img {
+    width: 19%;
+    margin-left: -82px !important;
+    margin-top: 14%;
+  }
+  ul.social-icons-simple li,
+  ul.social-icons li {
+    display: inline-block;
+    margin: 8px;
+  }
+  .plan-head {
+    margin-left: 188px;
+    width: 41%;
+  }
+  a.phone-number {
+    font-size: 16px;
+    margin-left: -3px;
+  }
+  p.address.address.pl-2 {
+    font-size: 16px;
+    margin-left: -30%;
+  }
+  .learningoutcomes {
+    height: 1013px;
+    padding: 40px;
+  }
+  .bottom35 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+  #hero {
+    background-size: cover !important;
+    position: unset !important;
+    height: 521px !important;
+  }
+  p.text-center.form-head {
+    margin-top: -3px;
+    margin-bottom: -3px;
+  }
+  .bottom35 {
+    margin-bottom: -53px;
+  }
+  .col-lg-5.slidesout {
+    margin-top: 62px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+    padding: 5px !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+    padding: 5px !important;
+  }
+}
+@media only screen and (min-width: 1999px) and (max-width: 1101px) {
+  .orh-form.orh-home-text {
+    float: right;
+    margin-right: 92px;
+    margin-top: 51px !important;
+    width: 303px;
+    padding: 29px;
+    /* padding-bottom: 0px; */
+  }
+  form.caldera-grid {
+    width: 247px !important;
+  }
+  .form-group {
+    margin-bottom: 11px;
+  }
+  button#orchidsform {
+    height: 48px !important;
+  }
+  .bottom35 {
+    margin-bottom: -53px;
+  }
+  .col-lg-5.slidesout {
+    margin-top: 62px;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+    padding: 5px !important;
+  }
+  .bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+    padding: 5px !important;
+  }
+}
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+  form.caldera-grid {
+    width: 271px !important;
+    margin-left: 14px;
+  }
+  footer#site-footer {
+    padding: 229px 18px 2px 84px !important;
+  }
+}
+@media only screen and (max-width: 1065px) and (min-width: 1000px) {
+  .orh-form.orh-home-text {
+    float: right;
+    margin-right: 141px;
+    margin-top: 54px !important;
+  }
+  button#orchidsform {
+    height: 42px !important;
+  }
+}
+.plans hr.text-white.sbs {
+  height: 2px;
+  width: 26%;
+  margin-top: -47px;
+  margin-left: 36%;
+}
+
+.plans hr.text-white.sbsp {
+  height: 2px;
+  width: 26%;
+  margin-top: -47px;
+  margin-left: 36%;
+}
+.plans .container {
+  max-width: 901px;
+}
+@media only screen and (max-width: 1440px) and (min-width: 1400px) {
+  form.caldera-grid {
+    width: 300px;
+  }
+}
+.bg-white.col-lg-12.bottom20.outcometxt.outcomeright.wow.wow.fadeInRight {
+  padding: 12px;
+}
+.bg-white.col-lg-12.bottom20.outcometxt.outcomeleft.wow.wow.fadeInLeft {
+  padding: 12px;
+}
+
+.check-mark-blue {
+  color: #a0c33a;
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 2px;
+}
+.table-new {
+  background-color: #ef9a27;
+}
+.table td {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  width: 0px !important;
+  /*width: 68px;*/
+  vertical-align: middle;
+}
+.table th {
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  vertical-align: middle;
+}
+text-white {
+  color: #fff !important;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 600px;
+}
+
+@media screen and (max-width: 575px) {
+  .check-mark-blue {
+    border-radius: 50%;
+    /* padding: 5px; */
+    padding-top: 4px;
+    height: 20px;
+  }
+  @media only screen and (max-width: 575px) {
+  }
+  ol {
+    line-height: 1rem;
+  }
+}
+.table-responsive {
+  width: 96%;
+  margin-bottom: -30px;
+}

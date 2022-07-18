@@ -11,9 +11,9 @@ import K2fy from "./Components/Pages/Curriculum/UKG/k2fy";
 import Faq from "./Components/Pages/5 FAQ/faq";
 import Pricing from "./Components/Pages/6 Pricing/pricing";
 import Testimonials from "./Components/Pages/7 Testimonials/testimonials";
-import Sbs from "./Components/Pages/sbs";
-import Blog from "./Components/Pages/blog";
-import News from "./Components/Pages/news";
+import Sbs from "./Components/Pages/8 SBS/sbs";
+import Blog from "./Components/Pages/9 Blog/blog";
+import News from "./Components/Pages/10 News/news";
 import ContactUs from "./Components/Pages/contactus";
 
 function App() {

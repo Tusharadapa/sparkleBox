@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../../HomePage/Header/Header";
-import Bodytestimonials from "./Bodytestimonials";
+import Bodynews from "./Bodynews";
 import Footer from "../../HomePage/Footer/footer";
 
-const Testimonials = () => {
+const News = () => {
   return (
     <>
       <Header />
-      <Bodytestimonials />
+      <Bodynews />
       <Footer />
     </>
   );
 };
 
-export default Testimonials;
+export default News;

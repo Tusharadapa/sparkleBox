@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../../HomePage/Header/Header";
-import Bodytestimonials from "./Bodytestimonials";
+import Bodysbs from "./Bodysbs";
 import Footer from "../../HomePage/Footer/footer";
 
-const Testimonials = () => {
+const Sbs = () => {
   return (
     <>
       <Header />
-      <Bodytestimonials />
+      <Bodysbs />
       <Footer />
     </>
   );
 };
 
-export default Testimonials;
+export default Sbs;
