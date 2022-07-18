@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* From the page */
+.pt-100 {
+  padding-top: 100px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+.gutter-16 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.gutter-16 [class*="col-"] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.rs-contact.inner .content-info-part .info-item {
+  background: #f1f6fc;
+  padding: 50px 30px 37px;
+  text-align: center;
+}
+.rs-contact.inner .content-info-part .info-item .icon-part {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 100%;
+  margin: 0 auto 25px;
+  text-align: center;
+  position: relative;
+}
+.rs-contact.inner .content-info-part .info-item .icon-part i {
+  font-size: 80px;
+  color: #028cca;
+  line-height: 1;
+  margin-top: -5px;
+  position: relative;
+  z-index: 1;
+}
+.rs-contact.inner .content-info-part .info-item .content-part {
+  font-size: 18px;
+}
+.rs-contact.inner .content-info-part .info-item .content-part .title {
+  font-family: "Roboto", sans-serif;
+  color: #363636;
+  margin-bottom: 12px;
+}
+.rs-contact.inner .content-info-part .info-item .content-part a {
+  color: #363636;
+}
+.rs-contact.inner .content-info-part .info-item .content-part a:hover {
+  color: #028cca;
+}
+.rs-contact.inner .contact-form-part .custom1 {
+  flex: 45.965%;
+  max-width: 45.965%;
+}
+.rs-contact.inner .contact-form-part .img-part {
+  height: 100%;
+  background: url(https://dev.sparklebox.school/img/left-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.rs-contact.inner .contact-form-part .custom2 {
+  ms-flex: 54.035%;
+  flex: 54.035%;
+  max-width: 54.035%;
+}
+.rs-contact.inner .contact-form-part form {
+  background: url(https://dev.sparklebox.school/img/right-bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 72px 70px 94px;
+}
+.mb-53 {
+  margin-bottom: 53px;
+}
+.rs-contact.inner .contact-form-part form input,
+.rs-contact.inner .contact-form-part form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  color: #ffffff;
+  background: rgba(18, 115, 235, 0.5);
+  font-size: 16px;
+  padding: 11px 20px;
+}
+.rs-contact.inner .g-map {
+  padding: 0 10px 10px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.rs-contact.inner .g-map iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+  filter: grayscale(100%);
+  display: inherit;
+}
+.rs-contact.inner .contact-form-part form button {
+  background: #ffffff;
+  color: #028cca;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.readon.modify {
+  padding: 13px 32px;
+}
+.rs-contact.inner .contact-form-part form button:hover {
+  background: #028cca;
+  color: #ffffff;
+}
+.white-color {
+  color: #ffffff !important;
+}
+@media only screen and (max-width: 767px) {
+  .sec-title .sub-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sec-title h2.title,
+  .sec-title h2.title2,
+  h2 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .rs-contact.inner .content-info-part .info-item {
+    padding: 50px 15px 37px;
+  }
+  .rs-contact.inner .contact-form-part form {
+    padding: 42px 15px 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .rs-contact.inner .contact-form-part .custom1,
+  .rs-contact.inner .contact-form-part .custom2 {
+    ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .md-mb-42 {
+    margin-bottom: 42px;
+  }
+  .sec-title h2.title,
+  .sec-title h2.title3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .md-pt-80 {
+    padding-top: 80px;
+  }
+  .md-mb-30 {
+    margin-bottom: 30px;
+  }
+}

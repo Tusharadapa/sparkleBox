@@ -14,7 +14,7 @@ import Testimonials from "./Components/Pages/7 Testimonials/testimonials";
 import Sbs from "./Components/Pages/8 SBS/sbs";
 import Blog from "./Components/Pages/9 Blog/blog";
 import News from "./Components/Pages/10 News/news";
-import ContactUs from "./Components/Pages/contactus";
+import ContactUs from "./Components/Pages/11 Contact Us/contactus";
 
 function App() {
   return (
