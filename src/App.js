@@ -40,11 +40,6 @@ function App() {
           </Routes>
         </BrowserRouter>
       </div>
-
-      {/* Back to top Button */}
-      {/* <div class="container-top">
-        <a href="#" class="top"></a>
-      </div> */}
     </>
   );
 }

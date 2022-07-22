@@ -1,6 +1,33 @@
 import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.min.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./whyus.css";
-import "../../../maincss.css";
+
+const options = {
+  id: "services-slider",
+  items: 3,
+  margin: 16,
+  autoplay: true,
+  loop: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    400: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    700: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+};
 
 const BodyWhyUs = () => {
   return (
@@ -44,66 +71,62 @@ const BodyWhyUs = () => {
         </div>
       </section>
 
-      <section>
-        <div className="container pt-5">
+      <section className="carou">
+        <div className="container pt-5" style={{ overflow: "hidden" }}>
           <div className="row">
             <div className="col-md-12">
-              <div id="services-slider" className="owl-carousel">
-                <div className="item">
-                  <div className="service-box bg-orange">
-                    <span className="bottom25">
-                      <img
-                        src="https://sparklebox.school/img/Icons-01.png"
-                        alt="icons"
-                      />
-                    </span>
-                    <h4 className="bottom10 text-nowrap">
-                      <a href="javascript:void(0)" className="font-22">
-                        Cognitive Development{" "}
-                      </a>
-                    </h4>
-                    <p>
-                      {" "}
-                      Boost your child’s cognitive development with several
-                      hands-on activities.
-                    </p>
-                  </div>
+              <OwlCarousel {...options}>
+                <div
+                  className="sameheight"
+                  style={{ backgroundColor: "#026cb8" }}
+                >
+                  <img
+                    src="https://sparklebox.school/img/Icons-02.png"
+                    alt="CL"
+                  ></img>
+                  <h5 style={{ margin: "20px", color: "white" }}>
+                    Creative Learning
+                  </h5>
+                  <p style={{ margin: "20px", color: "white" }}>
+                    Your Child has numerous ways to learn, the gamified way!
+                  </p>
                 </div>
-                <div className="item">
-                  <div className="service-box bg-red">
-                    <span className="bottom25">
-                      <img
-                        src="https://sparklebox.school/img/Icons-03.png"
-                        alt="icons"
-                      />
-                    </span>
-                    <h4 className="bottom10">
-                      <a href="javascript:void(0)" className="font-22">
-                        Various Activities
-                      </a>
-                    </h4>
-                    <p>Several diverse activities in a box to explore!</p>
-                  </div>
+
+                <div
+                  className="sameheight"
+                  style={{ backgroundColor: "#ffb902" }}
+                >
+                  <img
+                    style={{ width: "150px", height: "151px" }}
+                    src="https://sparklebox.school/img/Icons-01.png"
+                    alt="CD"
+                  ></img>
+                  <h5 style={{ margin: "20px", color: "white" }}>
+                    Cognitive Development
+                  </h5>
+                  <p style={{ margin: "20px", color: "white" }}>
+                    Boost your Child's cognitive development with several
+                    hands-on activities
+                  </p>
                 </div>
-                <div className="item">
-                  <div className="service-box bg-blue">
-                    <span className="bottom25">
-                      <img
-                        src="https://sparklebox.school/img/Icons-02.png"
-                        alt="icons"
-                      />
-                    </span>
-                    <h4 className="bottom10">
-                      <a href="javascript:void(0)" className="font-22">
-                        Creative Learning
-                      </a>
-                    </h4>
-                    <p>
-                      Your child has numerous ways to learn,the gamified way!.
-                    </p>
-                  </div>
+
+                <div
+                  className="sameheight"
+                  style={{ backgroundColor: "#ff4a51" }}
+                >
+                  <img
+                    style={{ width: "150px", height: "151px" }}
+                    src="https://sparklebox.school/img/Icons-03.png"
+                    alt="VA"
+                  ></img>
+                  <h5 style={{ margin: "20px", color: "white" }}>
+                    Various Activities
+                  </h5>
+                  <p style={{ margin: "20px", color: "white" }}>
+                    Several diverse activities in a box to explore!
+                  </p>
                 </div>
-              </div>
+              </OwlCarousel>
             </div>
           </div>
         </div>

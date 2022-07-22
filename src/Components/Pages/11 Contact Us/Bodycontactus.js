@@ -5,40 +5,6 @@ function Bodycontactus() {
   return (
     <>
       {/* Contact Details */}
-      {/* <div className="container">
-        <div className="row">
-          <div className="col">
-            <div className="card h-100">
-              <i className="fa-solid fa-phone fa-4x"></i>
-              <h3>Phone Number</h3>
-
-              <a href="tel:+919513065436">+91 951-306-5436</a>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <i className="fa-solid fa-at fa-4x"></i>
-              <h3>Email Address</h3>
-              <a href="mailto:info@sparklebox.school">info@sparklebox.school</a>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <i className="fa-solid fa-location-dot fa-4x"></i>
-              <h3>Office Address</h3>
-              <a
-                target="_blank"
-                href="https://www.google.com/maps/place/K12+Techno+services+Pvt.+Ltd+-+Central+Office+Bangalore,+K12+Techno+services+Pvt.+Ltd,+No+60%2F1+1st+Main+Road,+Industrial+Suburb,+2nd+Stage,+Yeshwanthpur+Ward+42,+Laxmidevi+nagar,+Bengaluru,+Karnataka+560022/@13.0208943,77.540653,15z/data=!4m2!3m1!1s0x3bae3d608814ca8d:0xd0d514a6aa5bd05b"
-              >
-                I and II Floor, No. 60/1 1st Main Road Industrial Suburb, 2nd
-                Stage Yeshwanthpur, Laxmidevinagar, Bengaluru, Karnataka,
-                560022.
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       <section className="padding" id="our-apps">
         <div className="container">
           <div className="section-title">
@@ -67,11 +33,12 @@ function Bodycontactus() {
                       <div className="content-part">
                         <h4 className="title">Email Address</h4>
                         <a href="/cdn-cgi/l/email-protection#a9c0c7cfc6e9dad9c8dbc2c5cccbc6d187dacac1c6c6c5">
+                          info@sparklebox.school
                           <span
                             className="__cf_email__"
                             data-cfemail="3f565159507f4c4f5e4d54535a5d5047114c5c57505053"
                           >
-                            [email&nbsp;protected]
+                            {/* [email&nbsp;protected] */}
                           </span>
                         </a>
                       </div>
